@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeasOfWrath.LevelPage">
+    <ContentPage.Resources>
+            <Style x:Key="ButtonStyle" TargetType="Button" >
+                <Setter Property="BackgroundColor" Value="#71c4f7" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="0,0,0,0" />
+                <Setter Property="Padding" Value="0" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label" >
+                <Setter Property="XAlign" Value="Center"/>
+                <Setter Property="YAlign" Value="Center"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style x:Key="BannerGridStyle" TargetType="Grid" >
+                <Setter Property="BackgroundColor"  Value="#6aaed8"/>
+                <Setter Property="ColumnSpacing"  Value="5"/>
+                <Setter Property="RowSpacing"  Value="5"/>
+            </Style>
+            <Style x:Key="MiddleGridStyle" TargetType="Grid" >
+                <Setter Property="BackgroundColor"  Value="#6aaed8"/>
+                <Setter Property="ColumnSpacing"  Value="5"/>
+                <Setter Property="RowSpacing"  Value="5"/>
+            </Style>
+        </ContentPage.Resources>
+
+        <!-- Grid for Separating Page into three main sections (Header, Body, Footer) -->
+        <Grid Style="{StaticResource BannerGridStyle}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Header of page -->
+            <StackLayout ClassId="GamesStack" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">Choose Level</Label> 
+            </StackLayout>
+
+            <!-- Body of page -->
+            <Grid  Style="{StaticResource MiddleGridStyle}" VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand"  Grid.Row="1" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Level 1" Clicked="LevelOneButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="0" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                <Button Text="Level 2" Clicked="LevelTwoButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="1" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                <Button Text="Developer Test Level" Clicked="DeveloperLevelButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="2" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            </Grid>
+        </Grid>
+    </ContentPage>

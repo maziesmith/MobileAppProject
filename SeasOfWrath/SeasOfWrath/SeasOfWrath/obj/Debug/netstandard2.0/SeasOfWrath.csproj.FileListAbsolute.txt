@@ -1,0 +1,16 @@
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.csprojAssemblyReference.cache
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.csproj.CoreCompileInputs.cache
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.AssemblyInfoInputs.cache
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.AssemblyInfo.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.dll
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.pdb
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.deps.json
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.dll
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.pdb
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\LevelPage.xaml.g.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\DevLevelPage.xaml.g.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.csproj.CopyComplete

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeasOfWrath.DevLevelPage">
+    <ContentPage.Resources>
+        
+        <Style x:Key="ButtonStyle" TargetType="Button" >
+            <Setter Property="BackgroundColor" Value="#7c3d12" />
+            <Setter Property="CornerRadius" Value="5" />
+            <Setter Property="Margin" Value="0,0,0,0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="BorderRadius" Value="200" />
+        </Style>
+        <Style x:Key="LabelStyle" TargetType="Label" >
+            <Setter Property="XAlign" Value="Center"/>
+            <Setter Property="YAlign" Value="Center"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style x:Key="BannerGridStyle" TargetType="Grid" >
+            <Setter Property="BackgroundColor"  Value="#b75c1f"/>
+            <Setter Property="ColumnSpacing"  Value="5"/>
+            <Setter Property="RowSpacing"  Value="5"/>
+        </Style>
+        <Style x:Key="MiddleGridStyle" TargetType="Grid" >
+            <Setter Property="BackgroundColor"  Value="#6aaed8"/>
+            <Setter Property="ColumnSpacing"  Value="5"/>
+            <Setter Property="RowSpacing"  Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <!-- Grid for Separating Page into three main sections (Header, Body, Footer) -->
+    <Grid Style="{StaticResource BannerGridStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Header of page -->
+        <StackLayout x:Name="GameBanner" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal" >
+            <Image x:Name="MainPageBanner" Source="banner.png" Aspect="AspectFit"
+                   VerticalOptions="Fill"/>
+        </StackLayout>
+
+        <!-- Body of page -->
+        <ScrollView VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand"  Grid.Row="1" Grid.Column="0">
+            <Grid x:Name="GameGrid" HeightRequest="700" WidthRequest="400" Style="{StaticResource MiddleGridStyle}" 
+               VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="GameBoard.png" Aspect="Fill"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.RowSpan="7" Grid.ColumnSpan="4" />
+                <Image x:Name="ImageWaves" Source="waves.png" Aspect="AspectFit" Grid.Row="6" Grid.Column="0" IsVisible="True"/>
+                <Image x:Name="ImageDanger" Source="kraken.png" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" IsVisible="False"/>
+                <Image x:Name="ImageIsland" Source="island.png" Aspect="AspectFit" Grid.Row="0" Grid.Column="1" IsVisible="False"/>
+                <Image x:Name="ImagePlayer" Source="PlayerShip.png" Aspect="AspectFit" Grid.Row="6" Grid.Column="0"/>
+                
+            </Grid>
+        </ScrollView>
+        
+        <!-- Footer of page -->
+        <Grid Style="{StaticResource BannerGridStyle}" VerticalOptions="EndAndExpand" Grid.Row="2" Grid.Column="0">
+            <!-- Parent Grid for Number buttons, Input Label & Checkout Button -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+ 
+            <!-- Grid for Number buttons & Input Label -->
+            <Frame Padding="1" Grid.Row="0" Grid.Column="0" OutlineColor="BurlyWood">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Number Input Label & Number boxes -->
+                    <Button x:Name="UpArrow" Image="UpArrow.png" Clicked="UpButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="0" Grid.Column="1" />
+                    <Button x:Name="RightArrow" Image="RightArrow.png" Clicked="RightArrow_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="1" Grid.Column="2" />
+                    <Button x:Name="LeftArrow" Image="RightArrow.png" Clicked="LeftArrow_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="1" Grid.Column="0" Rotation="180" />
+                    <Button x:Name="DownArrow" Image="UpArrow.png" Clicked="DownArrow_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="2" Grid.Column="1" Rotation="180" />
+                    <Label x:Name="MoveIndicator" Text="{Binding InspectLabel}" Style="{StaticResource LabelStyle}" Grid.Row="1" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+
+            <!-- Stack for Checkout Button -->
+            <Frame Padding="5" Grid.Row="0" Grid.Column="1" OutlineColor="BurlyWood">
+                <StackLayout>
+                    <Frame Padding="0" OutlineColor="BurlyWood" Scale="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="HEALTH" Grid.Row="0" Grid.Column="0"  Style="{StaticResource LabelStyle}" TextDecorations="Underline"/>
+                            <Label x:Name="HealthLabel" Text="{Binding HealthLabel}" Grid.Row="1" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
+                        </Grid>
+                    </Frame>
+
+                    <Frame Padding="5" OutlineColor="BurlyWood">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="FOOD" Grid.Row="0" Grid.Column="0"  Style="{StaticResource LabelStyle}" TextDecorations="Underline"/>
+                            <Label x:Name="FoodLabel" Text="{Binding FoodLabel}" Grid.Row="1" Grid.Column="0" Style="{StaticResource LabelStyle}"/>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+            
+        </Grid>
+    </Grid>
+</ContentPage>
