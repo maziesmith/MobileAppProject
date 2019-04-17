@@ -2,36 +2,6 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -364,36 +334,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -901,36 +841,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1439,36 +1349,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1801,36 +1681,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2338,36 +2188,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2876,36 +2696,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -3413,36 +3203,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
-      "DotImaging.Drawing/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.GenericImage": "4.8.3"
-        },
-        "build": {
-          "build/DotImaging.Drawing.targets": {}
-        }
-      },
-      "DotImaging.GenericImage/4.8.3": {
-        "type": "package",
-        "dependencies": {
-          "DotImaging.Primitives2D": "4.8.3"
-        },
-        "compile": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.GenericImage.dll": {}
-        }
-      },
-      "DotImaging.Primitives2D/4.8.3": {
-        "type": "package",
-        "compile": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        },
-        "runtime": {
-          "lib/net45/DotImaging.Primitives2D.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -3952,50 +3712,6 @@
     }
   },
   "libraries": {
-    "DotImaging.Drawing/4.8.3": {
-      "sha512": "LR6wdk6gs0nyEsrlVoUgtbvDck/NIhjbdxq9teqxOnInp+HcwFdV4vAgUFG44j7i1WKhvjCJfNQGBigimL/qbQ==",
-      "type": "package",
-      "path": "dotimaging.drawing/4.8.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/DotImaging.Drawing.targets",
-        "dotimaging.drawing.4.8.3.nupkg.sha512",
-        "dotimaging.drawing.nuspec",
-        "lib/net45/DotImaging.Drawing.dll",
-        "lib/net45/DotImaging.Drawing.xml",
-        "native/UnmanagedLibraries/Windows/x64/opencv_core2412.dll",
-        "native/UnmanagedLibraries/Windows/x86/opencv_core2412.dll",
-        "readme.txt"
-      ]
-    },
-    "DotImaging.GenericImage/4.8.3": {
-      "sha512": "wazaidMKHDUfbaAfoGaSINqDd0C02m1DiHmin6FiQeaccfgYh63Gi8/pvVybZu5nccSiS+tyEEBr5ATPdUl2XQ==",
-      "type": "package",
-      "path": "dotimaging.genericimage/4.8.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotimaging.genericimage.4.8.3.nupkg.sha512",
-        "dotimaging.genericimage.nuspec",
-        "lib/net45/DotImaging.GenericImage.dll",
-        "lib/net45/DotImaging.GenericImage.xml",
-        "readme.txt"
-      ]
-    },
-    "DotImaging.Primitives2D/4.8.3": {
-      "sha512": "+ZF0olyucVQdSSjXVBdMN5GRbJmameOoSBabwfIPMoqr7Im79EZl4sERUFtyyHwLdO3/B6lhLC8yNRfSxkpgFg==",
-      "type": "package",
-      "path": "dotimaging.primitives2d/4.8.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotimaging.primitives2d.4.8.3.nupkg.sha512",
-        "dotimaging.primitives2d.nuspec",
-        "lib/net45/DotImaging.Primitives2D.dll",
-        "lib/net45/DotImaging.Primitives2D.xml"
-      ]
-    },
     "Microsoft.Net.Native.Compiler/2.1.8": {
       "sha512": "7836QmE441s7vynQ4M3clWsbZIn3kzM9OqxZfhPTFTpqntHT5qt/T/2Qcg6gO+xlYqfCqaBq6TN0doGn2Ggc2Q==",
       "type": "package",
@@ -7898,7 +7614,6 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
-      "DotImaging.Drawing >= 4.8.3",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
       "SeasOfWrath >= 1.0.0",
       "Xam.Plugin.SimpleAudioPlayer >= 1.3.0",
@@ -7946,10 +7661,6 @@
     "frameworks": {
       "uap10.0.16299": {
         "dependencies": {
-          "DotImaging.Drawing": {
-            "target": "Package",
-            "version": "[4.8.3, )"
-          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.5, )"
@@ -7993,27 +7704,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'DotImaging.GenericImage 4.8.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.16299'. This package may not be fully compatible with your project.",
-      "libraryId": "DotImaging.GenericImage",
-      "targetGraphs": [
-        "UAP,Version=v10.0.16299"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'DotImaging.Primitives2D 4.8.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.16299'. This package may not be fully compatible with your project.",
-      "libraryId": "DotImaging.Primitives2D",
-      "targetGraphs": [
-        "UAP,Version=v10.0.16299"
-      ]
-    }
-  ]
+  }
 }

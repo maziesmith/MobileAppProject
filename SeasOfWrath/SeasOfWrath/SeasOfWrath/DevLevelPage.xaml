@@ -29,7 +29,7 @@
     </ContentPage.Resources>
 
     <!-- Grid for Separating Page into three main sections (Header, Body, Footer) -->
-    <Grid Style="{StaticResource BannerGridStyle}">
+    <Grid Style="{StaticResource BannerGridStyle}" BackgroundColor="#4994ff">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="7*" />
@@ -41,7 +41,7 @@
 
         <!-- Header of page -->
         <StackLayout x:Name="GameBanner" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal" >
-            <Image x:Name="MainPageBanner" Source="banner.png" Aspect="AspectFit"
+            <Image x:Name="MainPageBanner" Source="GameBanner.png" Aspect="AspectFit"
                    VerticalOptions="Fill"/>
         </StackLayout>
 

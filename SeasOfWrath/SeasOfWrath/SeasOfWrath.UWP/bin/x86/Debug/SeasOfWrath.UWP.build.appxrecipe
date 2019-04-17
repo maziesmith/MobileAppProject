@@ -28,12 +28,6 @@
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\SeasOfWrath.UWP.exe">
       <PackagePath>entrypoint\SeasOfWrath.UWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\dotimaging.genericimage\4.8.3\lib\net45\DotImaging.GenericImage.dll">
-      <PackagePath>DotImaging.GenericImage.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\dotimaging.primitives2d\4.8.3\lib\net45\DotImaging.Primitives2D.dll">
-      <PackagePath>DotImaging.Primitives2D.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
@@ -663,6 +657,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\DownArrow.png">
       <PackagePath>DownArrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\GameBanner.png">
+      <PackagePath>GameBanner.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\GameBoard.png">
       <PackagePath>GameBoard.png</PackagePath>

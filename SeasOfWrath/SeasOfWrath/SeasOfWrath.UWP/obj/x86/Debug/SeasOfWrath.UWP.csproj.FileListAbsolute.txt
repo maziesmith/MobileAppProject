@@ -300,8 +300,6 @@ C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
-C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\DotImaging.GenericImage.dll
-C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\DotImaging.Primitives2D.dll
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.dll
