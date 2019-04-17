@@ -11,9 +11,7 @@ namespace SeasOfWrath
         {
             InitializeComponent();
 
-            //MainPage = new MainPage();
-
-            MainPage = new NavigationPage(new DevLevelPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

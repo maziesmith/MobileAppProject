@@ -9,8 +9,10 @@ C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.deps.json
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.dll
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.pdb
-C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\LevelPage.xaml.g.cs
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\DevLevelPage.xaml.g.cs
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\SeasOfWrath.csproj.CopyComplete
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\LevelOne.xaml.g.cs
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\obj\Debug\netstandard2.0\LevelTwo.xaml.g.cs

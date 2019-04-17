@@ -1,6 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -23,6 +27,7 @@ namespace SeasOfWrath
         private Boolean _movingTurn;
         #endregion
 
+        #region --- Initialize Level ---
         public DevLevelPage ()
 		{
 			InitializeComponent ();
@@ -80,38 +85,39 @@ namespace SeasOfWrath
             island = new BoardObject()
             {
                 Xpos = 5,
-                Ypos = 3
+                Ypos = 0
             };
             _islands.Add(island);
 
             island = new BoardObject()
             {
                 Xpos = 4,
-                Ypos = 3
+                Ypos = 0
             };
             _islands.Add(island);
 
             island = new BoardObject()
             {
                 Xpos = 3,
-                Ypos = 3
+                Ypos = 0
             };
             _islands.Add(island);
 
             island = new BoardObject()
             {
                 Xpos = 2,
-                Ypos = 3
+                Ypos = 0
             };
             _islands.Add(island);
 
             island = new BoardObject()
             {
                 Xpos = 1,
-                Ypos = 3
+                Ypos = 0
             };
             _islands.Add(island);
         }
+        #endregion
 
         #region --- ArrowButtons_Clicked ---
         private void UpButton_Clicked(object sender, EventArgs e)
@@ -474,6 +480,28 @@ namespace SeasOfWrath
                     await Navigation.PushAsync(new MainPage());
                 }
             }
+        }
+
+        private async Task LoadSave()
+        {
+            //Save save1 = JsonConvert.DeserializeObject<Save>(File.ReadAllText("SeasOfWrath.SaveGame.txt"));
+            //string test = save1.Xpos;
+            //bool answer = await DisplayAlert("Test", test, "Yes", "No");
+            /**
+            string jsonText;
+            ObservableCollection<Save> myList = new ObservableCollection<Save>();
+
+            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(MainPage)).Assembly;
+            // create the stream
+            Stream stream = assembly.GetManifestResourceStream("SeasOfWrath.SaveGame.txt");
+            using (var reader = new StreamReader(stream))
+            {
+                jsonText = reader.ReadToEnd();
+                // include JSON library now
+            }
+
+            myList = JsonConvert.DeserializeObject<ObservableCollection<Save>>(jsonText);
+            **/
         }
     }
 }

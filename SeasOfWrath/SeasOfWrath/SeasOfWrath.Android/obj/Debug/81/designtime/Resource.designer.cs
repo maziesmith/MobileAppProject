@@ -3011,20 +3011,29 @@ namespace SeasOfWrath.Droid
 			// aapt resource value: 0x7F010007
 			public const int RightArrow = 2130771975;
 			
+			// aapt resource value: 0x7F010008
+			public const int Sea = 2130771976;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010008
-			public const int UpArrow = 2130771976;
-			
 			// aapt resource value: 0x7F010009
-			public const int waves = 2130771977;
+			public const int UpArrow = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int WrathBanner = 2130771984;
+			public const int waves = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int Wood = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int Wood2 = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int WrathBanner = 2130771987;
 			
 			static Drawable()
 			{

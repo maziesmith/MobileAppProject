@@ -14,14 +14,9 @@ namespace SeasOfWrath
             InitializeComponent();
         }
 
-        private void PlayButton_Clicked(object sender, EventArgs e)
+        private async void PlayButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LevelPage());
-        }
-
-        private void WinsButton_Clicked(object sender, EventArgs e)
-        {
-
+            await Navigation.PushAsync(new LevelPage());
         }
     }
 }

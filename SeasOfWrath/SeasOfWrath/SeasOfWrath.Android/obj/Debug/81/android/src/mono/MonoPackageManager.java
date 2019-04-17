@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "SeasOfWrath.Android.dll" comes first in this list. */
 		"SeasOfWrath.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"SeasOfWrath.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

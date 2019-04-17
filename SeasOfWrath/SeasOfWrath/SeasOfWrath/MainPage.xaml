@@ -6,7 +6,8 @@
 
     <ContentPage.Resources>
         <Style x:Key="ButtonStyle" TargetType="Button" >
-            <Setter Property="BackgroundColor" Value="#71c4f7" />
+            <Setter Property="BackgroundColor" Value="#c66233" />
+            <Setter Property="TextColor" Value="#ffef16" />
             <Setter Property="CornerRadius" Value="5" />
             <Setter Property="Margin" Value="0,0,0,0" />
             <Setter Property="Padding" Value="0" />
@@ -17,12 +18,12 @@
             <Setter Property="TextColor" Value="White"/>
         </Style>
         <Style x:Key="BannerGridStyle" TargetType="Grid" >
-            <Setter Property="BackgroundColor"  Value="#6aaed8"/>
+            <Setter Property="BackgroundColor"  Value="#060E19"/>
             <Setter Property="ColumnSpacing"  Value="5"/>
             <Setter Property="RowSpacing"  Value="5"/>
         </Style>
         <Style x:Key="MiddleGridStyle" TargetType="Grid" >
-            <Setter Property="BackgroundColor"  Value="#6aaed8"/>
+            <Setter Property="BackgroundColor"  Value="#7E563C"/>
             <Setter Property="ColumnSpacing"  Value="5"/>
             <Setter Property="RowSpacing"  Value="5"/>
         </Style>
@@ -31,17 +32,16 @@
     <!-- Grid for Separating Page into three main sections (Header, Body, Footer) -->
     <Grid Style="{StaticResource BannerGridStyle}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
         <!-- Header of page -->
-        <StackLayout x:Name="GamesStack" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" Orientation="Horizontal" >
-            <Image x:Name="MainPageBanner" Source="MainPageBanner.png" Aspect="Fill" VerticalOptions="CenterAndExpand"/>
+        <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" >
+            <Image x:Name="MainPageBanner" Source="Sea.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
 
         <!-- Body of page -->
@@ -49,12 +49,13 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Text="Play Games" Clicked="PlayButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="0" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-            <Button Text="Check Wins" Clicked="WinsButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="1" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            <Image Source="Wood.png" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+            <Button Text="Play Game" Clicked="PlayButton_Clicked" Style="{StaticResource ButtonStyle}" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
         </Grid>
     </Grid>
 </ContentPage>

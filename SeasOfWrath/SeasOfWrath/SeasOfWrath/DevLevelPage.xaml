@@ -87,6 +87,7 @@
             </Grid.ColumnDefinitions>
  
             <!-- Grid for Number buttons & Input Label -->
+            <Image Source="Wood2.png" Aspect="AspectFit" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
             <Frame Padding="1" Grid.Row="0" Grid.Column="0" OutlineColor="BurlyWood">
                 <Grid>
                     <Grid.RowDefinitions>

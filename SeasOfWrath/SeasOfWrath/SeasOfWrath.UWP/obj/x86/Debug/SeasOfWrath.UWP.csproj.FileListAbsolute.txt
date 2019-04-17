@@ -305,3 +305,5 @@ C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.dll
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Plugin.SimpleAudioPlayer.pdb
 C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\obj\x86\Debug\Plugin.SimpleAudioPlayer.pri.xml
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Newtonsoft.Json.pdb

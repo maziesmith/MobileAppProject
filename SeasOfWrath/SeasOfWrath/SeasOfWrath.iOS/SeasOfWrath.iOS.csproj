@@ -158,6 +158,36 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\PlayerMove.mp3" />
+    <BundleResource Include="Resources\waves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Wood2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GameBanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GameBoard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\island.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\kraken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PlayerShip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\RightArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Sea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\UpArrow.png" />
   </ItemGroup>
 </Project>

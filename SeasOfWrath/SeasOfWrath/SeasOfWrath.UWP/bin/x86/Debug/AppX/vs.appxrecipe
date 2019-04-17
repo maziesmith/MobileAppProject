@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-17T05:20:39.240</Modified>
+      <Modified>2019-04-17T19:02:53.472</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\SeasOfWrath.UWP.exe">
       <PackagePath>entrypoint\SeasOfWrath.UWP.exe</PackagePath>
-      <Modified>2019-04-17T05:20:34.298</Modified>
+      <Modified>2019-04-17T19:02:50.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\newtonsoft.json\12.0.2-beta1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-03-31T01:20:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +724,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath\bin\Debug\netstandard2.0\SeasOfWrath.dll">
       <PackagePath>SeasOfWrath.dll</PackagePath>
-      <Modified>2019-04-17T05:20:25.780</Modified>
+      <Modified>2019-04-17T19:02:42.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -881,13 +885,13 @@
       <PackagePath>PlayerShip.png</PackagePath>
       <Modified>2019-04-15T15:46:05.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\MainPageBanner.png">
-      <PackagePath>MainPageBanner.png</PackagePath>
-      <Modified>2019-04-15T13:02:45.600</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\RightArrow.png">
       <PackagePath>RightArrow.png</PackagePath>
       <Modified>2019-04-15T14:58:43.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\Sea.png">
+      <PackagePath>Sea.png</PackagePath>
+      <Modified>2019-04-17T17:44:06.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\UpArrow.png">
       <PackagePath>UpArrow.png</PackagePath>
@@ -896,6 +900,14 @@
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\waves.png">
       <PackagePath>waves.png</PackagePath>
       <Modified>2019-04-16T22:22:34.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\Wood.png">
+      <PackagePath>Wood.png</PackagePath>
+      <Modified>2019-04-17T17:47:30.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\Wood2.png">
+      <PackagePath>Wood2.png</PackagePath>
+      <Modified>2019-04-17T18:03:02.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\PlayerMove.mp3">
       <PackagePath>PlayerMove.mp3</PackagePath>
@@ -911,11 +923,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-17T05:20:34.026</Modified>
+      <Modified>2019-04-17T19:02:50.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-17T05:20:34.027</Modified>
+      <Modified>2019-04-17T19:02:50.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -927,11 +939,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-17T05:20:37.860</Modified>
+      <Modified>2019-04-17T19:02:52.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\bin\x86\Debug\Core\SeasOfWrath.UWP.exe">
       <PackagePath>SeasOfWrath.UWP.exe</PackagePath>
-      <Modified>2019-04-17T05:20:39.227</Modified>
+      <Modified>2019-04-17T19:02:53.462</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

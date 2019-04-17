@@ -17,19 +17,19 @@ namespace SeasOfWrath
 			InitializeComponent ();
 		}
 
-        private void LevelOneButton_Clicked(object sender, EventArgs e)
+        private async void LevelOneButton_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new LevelOne());
         }
         
-        private void LevelTwoButton_Clicked(object sender, EventArgs e)
+        private async void LevelTwoButton_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new LevelTwo());
         }
 
-        private void DeveloperLevelButton_Clicked(object sender, EventArgs e)
+        private async void DeveloperLevelButton_Clicked(object sender, EventArgs e)
         {
-            
+            await Navigation.PushAsync(new DevLevelPage());
         }
     }
 }
