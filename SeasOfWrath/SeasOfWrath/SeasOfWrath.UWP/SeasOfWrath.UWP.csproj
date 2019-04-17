@@ -130,8 +130,6 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <Content Include="banner.png" />
-    <Content Include="DownArrow.png" />
     <Content Include="GameBanner.png" />
     <Content Include="GameBoard.png" />
     <Content Include="island.png" />

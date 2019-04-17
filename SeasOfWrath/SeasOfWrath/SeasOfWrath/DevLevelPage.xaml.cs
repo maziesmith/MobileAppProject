@@ -167,7 +167,7 @@ namespace SeasOfWrath
                 switch (button)
                 {
                     case 1:
-                        CheckUp(player);
+                        await CheckUp(player);
                         break;
                     case 2:
                         CheckRight(player);
@@ -187,8 +187,8 @@ namespace SeasOfWrath
 
             if(_moveTaken == true)
             {
-                CheckForLandmarksEvent(player);
-                DecrementFood();
+                await CheckForLandmarksEvent(player);
+                await DecrementFood();
                 _moveTaken = false;
             }
             
@@ -273,7 +273,7 @@ namespace SeasOfWrath
         #endregion
 
         #region --- Check Up/Right/Down/Left ---
-        private void CheckUp(Image player)
+        private async Task CheckUp(Image player)
         {
             // check if the square contains an island or danger tile
             int checkRow = (int)player.GetValue(Grid.RowProperty) - 1;
@@ -281,6 +281,18 @@ namespace SeasOfWrath
 
             if (checkRow < 0)
             {
+                bool answer = await DisplayAlert("Congratulations!", "You have won!" +
+                            "Would you like to play again?", "Yes", "No");
+
+                if (answer == true)
+                {
+                    await Navigation.PushAsync(new DevLevelPage());
+                }
+
+                else
+                {
+                    await Navigation.PushAsync(new MainPage());
+                }
 
             }
             else
@@ -338,6 +350,7 @@ namespace SeasOfWrath
         }
         #endregion
 
+        #region --- Check LandMarks ---
         private void CheckForLandmarks(int x, int y)
         {
             foreach (var d in _dangers)
@@ -375,7 +388,7 @@ namespace SeasOfWrath
             else { _found = false; }
         }
 
-        private void CheckForLandmarksEvent(Image player)
+        private async Task CheckForLandmarksEvent(Image player)
         {
             int x = (int)player.GetValue(Grid.RowProperty);
             int y = (int)player.GetValue(Grid.ColumnProperty);
@@ -389,7 +402,20 @@ namespace SeasOfWrath
 
                     if(_health == 0)
                     {
-                        //------------------ GAME OVER CODE ----------------------
+                        bool answer = await DisplayAlert("Game Over", "You have run out of health. " +
+                            "Would you like to try again?", "Yes", "No");
+
+                        if (answer == true)
+                        {
+                            await Navigation.PushAsync(new DevLevelPage());
+                        }
+
+                        else
+                        {
+                            
+                            await Navigation.PushAsync(new MainPage());
+                        }
+                        
                     }
                 }
             }
@@ -404,6 +430,7 @@ namespace SeasOfWrath
                 }
             }
         }
+        #endregion
 
         private void SetWaveTile(int Ypos, int Xpos)
         {
@@ -426,22 +453,27 @@ namespace SeasOfWrath
             waves.IsVisible = false;
         }
 
-        private void DecrementFood()
+        private async Task DecrementFood()
         {
             _food -= 1;
             FoodLabel.Text = _food.ToString();
 
             if (_food == 0)
             {
-                //------------------ GAME OVER CODE ----------------------
-            }
-        }
+                bool answer = await DisplayAlert("Game Over", "You have run out of food. " +
+                            "Would you like to try again?", "Yes", "No");
 
-        private void ErrorMessage()
-        {
-            Image player;
-            double xStep = GameGrid.Width / 4;
-            player = GameGrid.FindByName<Image>("ImagePlayer");
+                if (answer == true)
+                {
+                    await Navigation.PushAsync(new DevLevelPage());
+                }
+
+                else
+                {
+
+                    await Navigation.PushAsync(new MainPage());
+                }
+            }
         }
     }
 }

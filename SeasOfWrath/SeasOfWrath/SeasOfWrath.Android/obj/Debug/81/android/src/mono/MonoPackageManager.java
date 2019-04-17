@@ -106,6 +106,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SeasOfWrath.Android.dll" comes first in this list. */
+		"SeasOfWrath.Android.dll",
 		"FormsViewGroup.dll",
 		"SeasOfWrath.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

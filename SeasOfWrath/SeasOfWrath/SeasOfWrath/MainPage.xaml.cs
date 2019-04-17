@@ -16,7 +16,7 @@ namespace SeasOfWrath
 
         private void PlayButton_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new LevelPage());
         }
 
         private void WinsButton_Clicked(object sender, EventArgs e)

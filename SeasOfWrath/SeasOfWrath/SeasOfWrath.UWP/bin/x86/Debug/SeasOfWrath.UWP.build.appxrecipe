@@ -652,12 +652,6 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\banner.png">
-      <PackagePath>banner.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\DownArrow.png">
-      <PackagePath>DownArrow.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sean\Desktop\MobileAppProject\MobileAppProject\SeasOfWrath\SeasOfWrath\SeasOfWrath.UWP\GameBanner.png">
       <PackagePath>GameBanner.png</PackagePath>
     </AppxPackagedFile>
